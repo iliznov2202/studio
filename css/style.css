@@ -480,31 +480,37 @@ html {
   padding: 85px 165px 0px 165px;
 }
 
-/* line 45, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 44, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.nav-menu {
+  position: relative;
+  z-index: 100;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 48, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 50, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 85px;
   font-size: 20px;
 }
 
-/* line 51, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 53, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0px;
 }
 
-/* line 53, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 55, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .nav-menu__list-item a {
   text-decoration: none;
   color: #F8F4F0;
   scroll-behavior: smooth;
 }
 
-/* line 58, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 60, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .left-wrapper {
   width: 580px;
   height: 290px;
@@ -515,13 +521,13 @@ html {
   top: 200px;
 }
 
-/* line 68, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 69, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .big-text {
   font-size: 120px;
   font-weight: bold;
 }
 
-/* line 72, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 73, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .lil-text {
   width: 580px;
   font-size: 25px;
@@ -534,7 +540,7 @@ html {
   align-items: center;
 }
 
-/* line 83, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 82, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .right-wripper_img {
   width: 647px;
   height: 802px;
@@ -543,7 +549,7 @@ html {
   right: 50px;
 }
 
-/* line 90, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 89, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_first {
   position: absolute;
   top: -80px;
@@ -551,7 +557,7 @@ html {
   transform: rotate(335deg);
 }
 
-/* line 96, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 95, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_second {
   position: absolute;
   top: 320px;
@@ -559,177 +565,38 @@ html {
   transform: rotate(-2deg);
 }
 
-/* line 102, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 101, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .page-wrap {
   position: absolute;
-  top: 652px;
+  top: 640px;
   right: 580px;
-  transform: rotate(-17deg);
   width: 169px;
   height: 169px;
   background-color: transparent;
 }
 
-/* line 112, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.badge {
-  position: relative;
-  width: 70px;
-  border-radius: 30%;
-  transform: rotate(-50deg);
+/* line 110, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.page-wrap {
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-/* line 118, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.badge-1 {
-  position: relative;
-  width: 100px;
-  height: 180px;
-  border-radius: 60%;
-  transform: rotate(-230deg);
-}
-
-/* line 125, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-h1 span {
-  font: 17px;
-  color: #F8F4F0;
-  height: 80px;
-  position: absolute;
-  width: 20px;
-  left: 0;
-  top: 0;
-  transform-origin: bottom center;
-}
-
-/* line 135, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char1 {
-  transform: rotate(0deg);
-}
-
-/* line 137, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char2 {
-  transform: rotate(5deg);
-}
-
-/* line 139, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char3 {
-  transform: rotate(12deg);
-}
-
-/* line 141, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char4 {
-  transform: rotate(20deg);
-}
-
-/* line 143, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char5 {
-  transform: rotate(28deg);
-}
-
-/* line 145, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char6 {
-  transform: rotate(36deg);
-}
-
-/* line 147, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char7 {
-  transform: rotate(42deg);
-}
-
-/* line 149, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char8 {
-  transform: rotate(49deg);
-}
-
-/* line 151, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char9 {
-  transform: rotate(55deg);
-}
-
-/* line 153, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char10 {
-  transform: rotate(63deg);
-}
-
-/* line 155, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char11 {
-  transform: rotate(70deg);
-}
-
-/* line 157, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char12 {
-  transform: rotate(74deg);
-}
-
-/* line 159, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char13 {
-  transform: rotate(85deg);
-}
-
-/* line 161, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char14 {
-  transform: rotate(91deg);
-}
-
-/* line 163, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char15 {
-  transform: rotate(97deg);
-}
-
-/* line 165, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char16 {
-  transform: rotate(103deg);
-}
-
-/* line 167, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char17 {
-  transform: rotate(112deg);
-}
-
-/* line 169, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char18 {
-  transform: rotate(122deg);
-}
-
-/* line 171, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char19 {
-  transform: rotate(129deg);
-}
-
-/* line 173, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char20 {
-  transform: rotate(136deg);
-}
-
-/* line 175, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.char21 {
-  transform: rotate(145deg);
-}
-
-/* line 178, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.signUp {
-  position: absolute;
-  top: 716px;
-  right: 633px;
-  transform: rotate(-5deg);
-  background-color: #7382B1;
-  border: none;
-  outline: none;
-  z-index: 99;
-}
-
-/* line 188, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 119, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .star {
   height: 41px;
   width: 43px;
 }
 
-/* line 192, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 123, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .first-section_star {
   position: absolute;
   top: 317px;
   right: 1506px;
 }
 
-/* line 197, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 128, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .second-section {
   height: 605px;
   background-color: #F8F4F0;
@@ -739,7 +606,7 @@ h1 span {
   overflow: hidden;
 }
 
-/* line 205, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 136, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .left_part_text {
   height: 390px;
   width: 600px;
@@ -748,31 +615,31 @@ h1 span {
   margin-right: 103px;
 }
 
-/* line 211, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 142, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .left_part_text-title {
   font-size: 40px;
   color: #7382B1;
   margin-bottom: 17px;
 }
 
-/* line 215, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 146, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .left_part_text-main-text {
   font-size: 30px;
   color: #454545;
 }
 
-/* line 218, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 149, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .right-part {
   z-index: 99;
 }
 
-/* line 221, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 152, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .right-part_img {
   height: 425px;
   width: 480px;
 }
 
-/* line 225, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 156, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_third {
   position: absolute;
   top: -447px;
@@ -780,7 +647,7 @@ h1 span {
   transform: rotate(-2deg);
 }
 
-/* line 231, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 162, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_fourth {
   position: absolute;
   top: 40px;
@@ -788,14 +655,14 @@ h1 span {
   transform: rotate(340deg);
 }
 
-/* line 237, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 168, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .second-section_star {
   position: absolute;
   top: 90px;
   right: 640px;
 }
 
-/* line 242, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 173, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .third-section {
   height: 570px;
   background-color: #454545;
@@ -805,7 +672,7 @@ h1 span {
   overflow: hidden;
 }
 
-/* line 249, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 180, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .third-section_title {
   width: 700px;
   color: #F8F4F0;
@@ -813,7 +680,7 @@ h1 span {
   margin: 50px 0 77px 0;
 }
 
-/* line 254, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 185, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .third-section_description {
   width: 1200px;
   height: 290px;
@@ -822,26 +689,26 @@ h1 span {
   justify-content: space-around;
 }
 
-/* line 261, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 192, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .description {
   width: 260px;
   font-size: 25px;
   text-align: center;
 }
 
-/* line 265, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 196, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .description-title {
   margin-bottom: 23px;
 }
 
-/* line 267, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 198, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .description_img {
   width: 88px;
   height: 117px;
   margin-bottom: 33px;
 }
 
-/* line 272, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 203, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_fifth {
   position: absolute;
   top: -569px;
@@ -849,7 +716,7 @@ h1 span {
   transform: rotate(339.7deg);
 }
 
-/* line 278, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 209, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_sixth {
   position: absolute;
   top: 30px;
@@ -857,14 +724,14 @@ h1 span {
   transform: rotate(-200deg);
 }
 
-/* line 284, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 215, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .third-section_star {
   position: absolute;
   top: 15px;
   right: 1030px;
 }
 
-/* line 289, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 220, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fourth-section {
   position: relative;
   background-color: #F8F4F0;
@@ -873,17 +740,17 @@ h1 span {
   z-index: 6;
 }
 
-/* line 295, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 226, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fourth-section_page-wrap {
   position: absolute;
-  top: 650px;
-  right: 240px;
+  top: 600px;
+  right: 210px;
   width: 116px;
   height: 116px;
   z-index: 70;
 }
 
-/* line 302, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 233, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fourth-section_star {
   position: absolute;
   top: 260px;
@@ -891,22 +758,15 @@ h1 span {
   z-index: 100;
 }
 
-/* line 308, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.fourth-sec {
-  color: #7382B1;
+/* line 240, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.page-wrap {
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-/* line 310, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.fourth-sec_signUp {
-  position: absolute;
-  top: 699px;
-  right: 245px;
-  transform: rotate(1deg);
-  background: transparent;
-  z-index: 74;
-}
-
-/* line 319, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 246, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_seventh {
   position: absolute;
   top: -569px;
@@ -915,7 +775,7 @@ h1 span {
   z-index: 7;
 }
 
-/* line 326, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 253, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_eighth {
   position: absolute;
   top: 260px;
@@ -924,7 +784,7 @@ h1 span {
   z-index: 3;
 }
 
-/* line 334, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 261, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fourth-section_title {
   position: relative;
   width: 293px;
@@ -934,7 +794,7 @@ h1 span {
   z-index: 10;
 }
 
-/* line 341, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 268, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fourth-section_directions {
   position: relative;
   display: flex;
@@ -947,14 +807,14 @@ h1 span {
   z-index: 11;
 }
 
-/* line 352, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 279, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .select_card {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-/* line 357, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 284, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .select {
   position: relative;
   border: none;
@@ -965,14 +825,14 @@ h1 span {
   z-index: 100;
 }
 
-/* line 366, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 293, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .select:hover {
   color: #7382B1;
   text-decoration: underline;
   cursor: pointer;
 }
 
-/* line 371, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 298, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .card {
   position: relative;
   margin-left: 165px;
@@ -982,7 +842,7 @@ h1 span {
   width: 1180px;
 }
 
-/* line 379, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 306, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .card_text {
   background-color: #F8F4F0;
   width: 580px;
@@ -995,7 +855,7 @@ h1 span {
   padding-top: 81px;
 }
 
-/* line 389, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 316, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .card_text_title {
   font-size: 30px;
   margin-bottom: 22px;
@@ -1003,14 +863,14 @@ h1 span {
   text-align: start;
 }
 
-/* line 394, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 321, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .card_text_main {
   font-size: 25px;
   width: 395px;
   height: 222px;
 }
 
-/* line 399, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 326, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fifth-section {
   position: relative;
   height: 405px;
@@ -1018,7 +878,7 @@ h1 span {
   overflow: hidden;
 }
 
-/* line 404, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 331, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fifth-section_title {
   position: relative;
   color: #F8F4F0;
@@ -1028,7 +888,7 @@ h1 span {
   z-index: 10;
 }
 
-/* line 411, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 338, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fifth-section_star {
   position: absolute;
   top: 23px;
@@ -1036,7 +896,7 @@ h1 span {
   z-index: 11;
 }
 
-/* line 417, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 344, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_ninth {
   position: absolute;
   top: -582px;
@@ -1045,7 +905,7 @@ h1 span {
   z-index: 1;
 }
 
-/* line 424, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 351, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_tenth {
   position: absolute;
   top: 60px;
@@ -1054,19 +914,20 @@ h1 span {
   z-index: 1;
 }
 
-/* line 431, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 358, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fifth-section_main-content {
   display: flex;
   flex-direction: row;
 }
 
-/* line 435, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 362, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fifth-section {
   position: relative;
   overflow: hidden;
+  background-color: #7382B1;
 }
 
-/* line 438, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 366, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fifth-section_form {
   width: 380px;
   height: 174px;
@@ -1076,7 +937,14 @@ h1 span {
   margin-left: 266px;
 }
 
-/* line 445, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 373, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.fifth-section_form_title {
+  color: #F8F4F0;
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+
+/* line 377, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .fifth-section_img {
   width: 580px;
   height: 167px;
@@ -1084,53 +952,32 @@ h1 span {
   z-index: 8;
 }
 
-/* line 451, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.form {
-  background: transparent;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+/* line 383, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+form {
+  position: relative;
+  z-index: 10;
 }
 
-/* line 456, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.label {
-  width: 100%;
-  background: transparent;
-}
-
-/* line 460, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.input {
-  width: 380px;
-  margin-bottom: 20px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 5px solid #454545;
-  border-radius: 3px;
-  background: transparent;
-}
-
-/* line 469, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 3px;
-  background-color: transparent;
-}
-
-/* line 479, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.fifth-section_form_title {
-  font-size: 25px;
+/* line 387, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+input[type=text] {
   color: #F8F4F0;
+  background-color: transparent;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #F8F4F0;
+  border-radius: 4px;
+  margin-top: 6px;
   margin-bottom: 16px;
+  resize: vertical;
 }
 
-/* line 484, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.rect {
-  margin-bottom: 25px;
+/* line 398, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+input[type=text] textarea {
+  color: #F8F4F0;
+  font-size: 20px;
 }
 
-/* line 487, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 402, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .sixth-section {
   height: 764px;
   background-color: #454545;
@@ -1139,7 +986,7 @@ h1 span {
   overflow: hidden;
 }
 
-/* line 493, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 408, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .sixth-section_title {
   position: relative;
   color: #F8F4F0;
@@ -1151,7 +998,7 @@ h1 span {
   z-index: 9;
 }
 
-/* line 502, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 417, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .sixth-section_rectangles {
   position: relative;
   width: 1180px;
@@ -1164,30 +1011,30 @@ h1 span {
   margin-left: 166px;
 }
 
-/* line 513, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 427, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .sixth-section_number {
   font-size: 100px;
   margin-bottom: 11px;
 }
 
-/* line 516, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 430, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .sixth-section_price {
   text-decoration: line-through;
   color: #C3C3C3;
   margin-bottom: 3px;
 }
 
-/* line 520, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 434, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .sixth-section_sale {
   margin-bottom: 32px;
 }
 
-/* line 522, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 436, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .sixth-section_star {
   margin-top: 60px;
 }
 
-/* line 525, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 439, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .rectangle {
   width: 380px;
   height: 520px;
@@ -1198,13 +1045,13 @@ h1 span {
   border-bottom-left-radius: 5px;
 }
 
-/* line 533, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 447, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .sixth-section_rectangles-second {
   background-color: #7382B1;
   color: #F8F4F0;
 }
 
-/* line 537, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 451, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .btn_choose {
   width: 163px;
   height: 45px;
@@ -1213,13 +1060,13 @@ h1 span {
   border: 1px solid black;
 }
 
-/* line 543, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 457, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .btn_choose:hover {
   color: #F8F4F0;
   background-color: #7382B1;
 }
 
-/* line 547, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 461, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_eleventh {
   position: absolute;
   top: -345px;
@@ -1228,7 +1075,7 @@ h1 span {
   z-index: 0;
 }
 
-/* line 554, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 468, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_twelfth {
   position: absolute;
   top: 140px;
@@ -1237,7 +1084,7 @@ h1 span {
   z-index: 0;
 }
 
-/* line 561, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 475, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .seventh-section {
   height: 653px;
   background-color: #F8F4F0;
@@ -1245,7 +1092,7 @@ h1 span {
   overflow: hidden;
 }
 
-/* line 566, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 480, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .seventh-section_title {
   color: #454545;
   font-size: 40px;
@@ -1255,7 +1102,7 @@ h1 span {
   justify-content: center;
 }
 
-/* line 573, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 487, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .seventh-section_rectangles {
   position: relative;
   width: 1180px;
@@ -1266,14 +1113,14 @@ h1 span {
   z-index: 10;
 }
 
-/* line 582, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 496, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .seventh_star {
   position: absolute;
   top: 62px;
   right: 180px;
 }
 
-/* line 587, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 501, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_thirteenth {
   position: absolute;
   top: -625px;
@@ -1282,7 +1129,7 @@ h1 span {
   z-index: 1;
 }
 
-/* line 594, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 508, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ellipse_fourteenth {
   position: absolute;
   top: 90px;
@@ -1291,7 +1138,7 @@ h1 span {
   z-index: 1;
 }
 
-/* line 601, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 515, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .teacher {
   width: 280px;
   height: 408px;
@@ -1299,9 +1146,7 @@ h1 span {
   overflow: hidden;
 }
 
-/* Сделайте изображение отзывчивым */
-/* Эффект наложения (полная высота и ширина) - накладывается поверх контейнера и поверх изображения */
-/* line 611, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 521, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .overlay {
   position: absolute;
   bottom: 0;
@@ -1310,36 +1155,80 @@ h1 span {
   background-color: #7382B1;
   overflow: hidden;
   width: 100%;
-  height: 50%;
+  height: 60%;
   transform: translateY(80%);
   transition: .3s;
 }
 
-/* Когда вы наведете курсор мыши на контейнер, текст наложения будет "масштабироваться" на дисплее */
-/* line 625, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 533, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .teacher:hover .overlay {
   transform: scale(1);
 }
 
-/* Некоторый текст внутри накладка, которая расположена посередине вертикально и горизонтально */
-/* line 630, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
-.text {
+/* line 536, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.teacher_title {
+  width: 219px;
   color: white;
   font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+  margin-top: 19px;
 }
 
-/* line 640, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 545, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.teacher_title_img {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 548, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.teacher_title_info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+  width: 216px;
+  height: 31px;
+}
+
+/* line 555, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.teacher_text_subtitle {
+  color: #C3C3C3;
+  margin-left: 34px;
+  margin-bottom: 26px;
+  font-style: 18px;
+}
+
+/* line 561, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.teacher_text_main {
+  color: #F8F4F0;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-bottom: 14px;
+}
+
+/* line 568, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.teacher_text_main_img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* line 573, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .eighth-section {
+  position: relative;
   height: 527px;
   background-color: #7382B1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-/* line 643, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 581, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .eighth-section_title {
   color: #F8F4F0;
   font-size: 40px;
@@ -1349,14 +1238,89 @@ h1 span {
   justify-content: center;
 }
 
-/* line 651, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 588, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eighth-section_all-cards {
+  position: relative;
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 594, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eighth-section_feedback-card {
+  width: 380px;
+  height: 280px;
+  background-color: #F8F4F0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 601, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eighth-section_feedback-card_title {
+  font-size: 30px;
+  width: 239px;
+  height: 36px;
+}
+
+/* line 605, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eighth-section_feedback-card_text {
+  font-size: 25px;
+  width: 329px;
+  height: 150px;
+}
+
+/* line 609, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eighth-section_feedback-card_img {
+  width: 61px;
+  height: 61px;
+  margin-right: 11px;
+}
+
+/* line 613, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eighth-section_feedback-card_main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 19px;
+  margin-top: 31px;
+}
+
+/* line 621, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_fifteenth {
+  position: absolute;
+  top: -563px;
+  right: -380px;
+  transform: rotate(-203deg);
+}
+
+/* line 628, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_sixteenth {
+  position: absolute;
+  top: 70px;
+  right: 230px;
+  transform: rotate(-203deg);
+}
+
+/* line 634, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eighth_star {
+  position: absolute;
+  top: 62px;
+  right: 948px;
+}
+
+/* line 639, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ninth-section {
   height: 983px;
   background-color: #454545;
+  overflow: hidden;
 }
 
-/* line 654, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 643, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .ninth-section_title {
+  position: relative;
   color: #F8F4F0;
   font-size: 40px;
   padding-top: 78px;
@@ -1365,18 +1329,280 @@ h1 span {
   justify-content: center;
 }
 
-/* line 664, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 652, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.row {
+  position: absolute;
+  left: -58px;
+  padding: 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1800px;
+  height: 900px;
+}
+
+/* line 661, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 666, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.column {
+  max-width: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+/* line 672, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000e7;
+}
+
+/* line 684, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.modal-content {
+  position: relative;
+  background-color: #454545;
+  margin: auto;
+  padding: auto;
+  width: 85%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 694, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.close {
+  color: #454545;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 135px;
+  font-weight: bold;
+}
+
+/* line 702, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.close:hover,
+.close:focus {
+  color: #7382B1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 708, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.mySlides {
+  display: none;
+}
+
+/* line 711, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #7382B1;
+  font-size: 80px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* line 726, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 730, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.prev {
+  left: 0;
+}
+
+/* line 733, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.prev:hover,
+.next:hover {
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
+/* line 737, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.numbertext {
+  color: #cccbcb;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* line 744, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.caption-container {
+  text-align: center;
+  padding: 2px 16px;
+  color: white;
+}
+
+/* line 749, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .tenth-section {
   height: 511px;
   background-color: #F8F4F0;
+  color: #454545;
+  overflow: hidden;
 }
 
-/* line 667, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+/* line 754, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
 .tenth-section_title {
-  color: #454545;
   font-size: 40px;
   padding-top: 78px;
   margin-bottom: 29px;
+  margin-left: 162px;
+}
+
+/* line 759, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.tenth-section_content {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 762, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.tenth-section_contact {
+  width: 250px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 162px;
+  margin-right: 250px;
+}
+
+/* line 769, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.tenth-section_contact_title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+/* line 772, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.tenth-section_contact_card {
+  width: 260px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* line 778, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.tenth-section_contact_box {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 782, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.tenth-section_contact_box_text {
+  display: flex;
+  align-items: center;
+}
+
+/* line 785, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.tenth-section_contact_box_img {
+  margin-right: 13px;
+}
+
+/* line 788, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eleventh-section {
+  height: 199px;
+  background-color: #454545;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+/* line 793, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eleventh-section_info {
+  width: 1181px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 70px;
+  margin-left: 165px;
+}
+
+/* line 800, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eleventh-section_info_title {
+  color: #7382B1;
+  font-size: 25px;
+  width: 105px;
+  height: 62px;
+}
+
+/* line 805, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.eleventh-section_info_text {
+  color: #F8F4F0;
+  font-size: 25px;
+  width: 264px;
+  height: 53px;
+}
+
+/* line 812, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.footer-icon {
+  width: 42px;
+  height: 42px;
+  margin-right: 27px;
+}
+
+/* line 816, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.footer-icon:last-child {
+  margin-right: 0;
+}
+
+/* line 819, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_seventeenth {
+  position: absolute;
+  top: -536px;
+  right: 84px;
+  transform: rotate(-203deg);
+}
+
+/* line 825, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_eighteenth {
+  position: absolute;
+  top: 140px;
+  right: -400px;
+  transform: rotate(-203deg);
+}
+
+/* line 831, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_nineteenth {
+  position: absolute;
+  top: 840px;
+  right: -400px;
+  transform: rotate(-203deg);
+}
+
+/* line 837, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_twentieth {
+  position: absolute;
+  top: -145px;
+  right: -403px;
+  transform: rotate(-203deg);
+}
+
+/* line 843, ../../../../../../../../../../../../../Users/elizaveta/Desktop/студияБалета/sass/style.sass */
+.ellipse_twenty-first {
+  position: absolute;
+  top: -657px;
+  right: -403px;
+  transform: rotate(-203deg);
 }
 
 /*# sourceMappingURL=style.css.map */
